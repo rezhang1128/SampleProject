@@ -29,5 +29,8 @@ This demo was built to showcase CRUD operations, Entity Framework Core, and depl
    ```json
    "ConnectionStrings": {
      "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=PatientRegistryDb;Trusted_Connection=True;"
-   }
-
+   }      
+4. Run EF Migrations
+"Add-Migration InitialCreate"
+"Update-Database"
+5. Run the project and navigate to /Patients
