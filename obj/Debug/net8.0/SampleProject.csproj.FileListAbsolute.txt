@@ -285,3 +285,4 @@ C:\Users\ryenz\source\repos\SampleProject\SampleProject\obj\Debug\net8.0\refint\
 C:\Users\ryenz\source\repos\SampleProject\SampleProject\obj\Debug\net8.0\SampleProject.pdb
 C:\Users\ryenz\source\repos\SampleProject\SampleProject\obj\Debug\net8.0\SampleProject.genruntimeconfig.cache
 C:\Users\ryenz\source\repos\SampleProject\SampleProject\obj\Debug\net8.0\ref\SampleProject.dll
+C:\Users\ryenz\source\repos\SampleProject\SampleProject\obj\Debug\net8.0\SampleProject.sourcelink.json

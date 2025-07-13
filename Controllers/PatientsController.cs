@@ -19,11 +19,22 @@ namespace SampleProject.Controllers
         }
 
         // GET: Patients
+        //public async Task<IActionResult> Index()
+        //{
+        //    return View(await _context.Patients.ToListAsync());
+        //}
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Patients.ToListAsync());
+            try
+            {
+                var list = await _context.Patients.ToListAsync();
+                return View(list);
+            }
+            catch (Exception ex)
+            {
+                return Content("Error: " + ex.Message);
+            }
         }
-
         // GET: Patients/Details/5
         public async Task<IActionResult> Details(int? id)
         {
